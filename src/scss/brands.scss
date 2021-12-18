@@ -1,0 +1,46 @@
+.brands {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.brands-title-wrapper {
+    width: 100%;
+    max-width: 1384px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.brand__imgage-wrapper {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.brand__img-item {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.brand__img {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 428px) {
+    .brand__img {
+        width: 100%;
+        max-width: 100px;
+        margin: 0 auto;
+    }
+    .brands {
+        margin-bottom: 20px;
+    }
+}
