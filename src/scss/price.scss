@@ -1,0 +1,38 @@
+.price__wrapper {
+    background: url(../../src/img/titlebg.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+.price__title {
+    font-family: $fontfamily;
+    font-size: 36px;
+    padding-top: 14px;
+    font-weight: 400;
+}
+
+.price-inner-wrapper {
+    width: 100%;
+    max-width: 1384px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.price__card {
+    width: 100%;
+    max-width: 748px;
+    margin: 0 auto;
+    min-height: 200px;
+    background: linear-gradient(#CFD0DB, #E4E4E4);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card__img {
+    margin-top: 20px;
+}
