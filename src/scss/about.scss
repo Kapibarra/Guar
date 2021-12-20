@@ -14,7 +14,18 @@
     margin-top: 50px;
 }
 
+.about__title {
+    font-family: $fontfamily;
+    font-size: 36px;
+    padding-top: 14px;
+}
+
+.about__text {
+    margin-top: 100px;
+}
+
 .about-inner-wrapper {
     display: flex;
     flex-direction: row;
+    margin-top: 50px;
 }
