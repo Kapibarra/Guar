@@ -1,32 +1,31 @@
-.about {
+.tabs-inner-wrapper {
     width: 100%;
-    max-width: 1384px;
-    display: block;
-    justify-content: space-between;
+    max-width: 1000px;
     margin: 0 auto;
-    margin-top: 20px;
 }
 
-.about-wrapper {
+.accordion {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.panel {
+    display: none;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.tabs-wrapper {
     background: url(../../src/img/titlebg.png);
     background-position: left top;
     background-repeat: no-repeat;
     margin-top: 50px;
 }
 
-.about__title {
+.tabs__title {
     font-family: $fontfamily;
     font-size: 36px;
     padding-top: 14px;
     font-weight: 400;
-}
-
-.about__text {
-    margin-top: 100px;
-}
-
-.about-inner-wrapper {
-    display: flex;
-    flex-direction: row;
-    margin-top: 50px;
 }
