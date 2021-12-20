@@ -7,6 +7,7 @@ import Flickity from "flickity";
 
 const options = {
   accessibility: true,
+  autoPlay: true,
   prevNextButtons: true,
   pageDots: true,
   setGallerySize: false,
