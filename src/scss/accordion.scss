@@ -4,16 +4,41 @@
     margin: 0 auto;
 }
 
+.tabs {
+    width: 100%;
+    max-width: 1384px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
 .accordion {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2px;
+    border: 0px;
+    background: #CFD0DB;
+    box-shadow: 0px 0px 50px rgba(#3D3E3D, 0);
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .panel {
     display: none;
     overflow: hidden;
     font-size: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 50px rgba(#3D3E3D, 0);
+    background: linear-gradient(#CFD0DB, #E4E4E4)
 }
 
 .tabs-wrapper {
