@@ -33,3 +33,10 @@
         }
     }
 }
+
+@media screen and (max-width: 428px) {
+    .cert__title {
+        font-size: 24px;
+        padding-left: 10px;
+    }
+}
