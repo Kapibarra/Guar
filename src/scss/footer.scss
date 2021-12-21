@@ -35,3 +35,10 @@
         }
     }
 }
+
+@media screen and (max-width: 428px) {
+    .footer__logo img {
+        width: 100%;
+        max-width: 300px;
+    }
+}

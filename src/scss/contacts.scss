@@ -104,4 +104,21 @@
     .contacts__button {
         margin-bottom: 30px;
     }
+    .contacts__img img {
+        width: 100%;
+        max-width: 300px;
+    }
+    .contacts__title {
+        font-size: 24px;
+        padding-left: 10px;
+    }
+    .terms {
+        max-width: 300px;
+        margin: 0 auto;
+        margin-top: 10px;
+        & input {
+            margin-top: 15px;
+            margin-right: 10px;
+        }
+    }
 }

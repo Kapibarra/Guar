@@ -89,4 +89,12 @@
     .card__price {
         text-align: center;
     }
+    .price__title {
+        font-size: 24px;
+        padding-left: 10px;
+    }
+    .price-inner-wrapper {
+        box-sizing: border-box;
+        padding: 10px;
+    }
 }
