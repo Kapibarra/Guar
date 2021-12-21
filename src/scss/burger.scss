@@ -76,7 +76,7 @@
         user-select: none;
         cursor: pointer;
         height: 50px;
-        right: 50px;
+        right: 15px;
         position: fixed;
         top: 60px;
         width: 50px;
@@ -101,7 +101,7 @@
         -ms-transition: all 0.5s ease;
         -o-transition: all 0.5s ease;
         transition: all 0.5s ease;
-        background: $highlight;
+        background: black;
         border-radius: 10px;
         content: '';
         height: 5px;
@@ -126,7 +126,7 @@
     
     .nav-toggle.expanded .nav-toggle-bar::after,
     .nav-toggle.expanded .nav-toggle-bar::before {
-        background: $highlight;
+        background: black;
         margin-top: 0;
     }
     
@@ -144,7 +144,7 @@
     
     @media screen and (max-width: 428px) {
         .nav-toggle {
-            top: 48px !important;
+            top: 12px !important;
         }
     }
     

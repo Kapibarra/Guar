@@ -31,5 +31,11 @@
 .about-inner-wrapper {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     margin-top: 50px;
+}
+
+.about__img {
+    width: 100%;
+    max-width: 600px;
 }

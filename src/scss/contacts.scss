@@ -92,3 +92,16 @@
     background: rgb(209, 209, 209);
     opacity: 0.3;
 }
+
+@media screen and (max-width: 428px) {
+    .contacts__form input {
+        max-width: 320px;
+        margin: 0 auto;
+    }
+    .input__title {
+        text-align: center;
+    }
+    .contacts__button {
+        margin-bottom: 30px;
+    }
+}

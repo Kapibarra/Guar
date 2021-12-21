@@ -17,6 +17,14 @@ html {
     /* 2 */
 }
 
+.visible {
+    display: block;
+}
+
+.unvisible {
+    display: none;
+}
+
 body {
     font-family: $fontfamily;
     letter-spacing: 1px;

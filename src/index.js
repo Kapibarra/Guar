@@ -81,6 +81,8 @@ scrollToTopButton.onclick = function (e) {
   e.preventDefault();
   scrollToTop();
 };
+
+
 /* burger */
 (function () {
   const hamburger = {
