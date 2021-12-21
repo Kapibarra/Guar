@@ -168,10 +168,17 @@
                 <div class="contacts-inner-wrapper">
                     <div class="form__wrapper">
                         <form class="contacts__form">
-                            <input>
-                            <input>
-                            <input>
-                            <button></button>
+                            <p class="input__title">Ваш E-mail адрес</p>
+                            <input type="email" placeholder="your@email.com">
+                            <p class="input__title">Ваше Имя</p>
+                            <input type="text" placeholder="Максим">
+                            <p class="input__title">Ваше сообщение</p>
+                            <input type="text" placeholder="Сообщение">
+                            <div class="terms">
+                                <input type="checkbox" checked onchange="document.getElementById('sendNew').disabled = !this.checked;" />
+                                <a class="private-policy" href="src\policy\Политика конфиденциальности.docx">Я согласен (-на) на обработку моих персональных данных</a>
+                            </div>
+                            <button class="contacts__button">Отправить</button>
                         </form>
                     </div>
                     <div class="contacts__img"><img src="../src/img/contacts.png"></div>
