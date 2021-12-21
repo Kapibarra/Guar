@@ -61,3 +61,14 @@
     padding-top: 14px;
     font-weight: 400;
 }
+
+@media screen and (max-width: 428px) {
+    .tabs__title {
+        font-size: 24px;
+        padding-left: 10px;
+    }
+    .tabs-inner-wrapper {
+        box-sizing: border-box;
+        padding: 10px;
+    }
+}
