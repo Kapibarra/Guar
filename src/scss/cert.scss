@@ -1,0 +1,27 @@
+.cert__wrapper {
+    background: url(../../src/img/titlebg.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+.cert__title {
+    font-family: $fontfamily;
+    font-size: 36px;
+    padding-top: 14px;
+    font-weight: 400;
+    max-width: 1384px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.cert-inner-wrapper {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cert-carousel-cell {
+    box-sizing: border-box;
+    padding: 15px;
+}

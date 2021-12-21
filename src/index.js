@@ -33,6 +33,15 @@ flkty.on('scroll', function () {
   });
 });
 
+/* Certificate slider */
+
+// const cert = document.querySelector('.cert-carousel');
+// const flikty = new Flickity( cert, {
+//   // options
+//   cellAlign: 'left',
+//   contain: true,
+// });
+
 /* Accordion */
 const acc = document.getElementsByClassName("accordion");
 for (let i = 0; i < acc.length; i++) {

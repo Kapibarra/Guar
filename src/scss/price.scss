@@ -29,7 +29,7 @@
     width: 100%;
     max-width: 748px;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 60px;
     min-height: 200px;
     background: linear-gradient(#CFD0DB, #E4E4E4);
     border-radius: 8px;
@@ -71,4 +71,12 @@
         background: #e7b911;
         transition: all 0.25s ease-in-out;
     }
+}
+
+.price__desc {
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
