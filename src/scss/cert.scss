@@ -25,3 +25,11 @@
     box-sizing: border-box;
     padding: 15px;
 }
+
+.cert-inner-wrapper {
+    & .cert-carousel {
+        & .flickity-page-dots {
+            display: none;
+        }
+    }
+}

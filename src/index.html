@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.pkgd.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.0.5/flickity.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+    <script src="../src/js/jquery.malihu.PageScroll2id.min.js"></script>
     <title>Guar</title>
 </head>
 
@@ -19,10 +21,10 @@
             </div>
             <nav class="header__nav">
                 <ul>
-                    <li><a href="#">О Нас</a></li>
-                    <li><a href="#">Направления</a></li>
-                    <li><a href="#">Цены</a></li>
-                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#about" aria-label="about" rel="m_PageScroll2id">О Нас</a></li>
+                    <li><a href="#tabs" aria-label="tabs" rel="m_PageScroll2id">Направления</a></li>
+                    <li><a href="#price" aria-label="price" rel="m_PageScroll2id">Цены</a></li>
+                    <li><a href="#contacts" aria-label="contacts" rel="m_PageScroll2id">Контакты</a></li>
                 </ul>
             </nav>
         </header>
@@ -40,32 +42,32 @@
                     <div class="overlay"></div>
                     <div class="inner">
                         <h3 class="subtitle">Slide 2</h3>
-                        <h2 class="title">Flickity Parallax</h2>
-                        <a href="https://flickity.metafizzy.co/" target="_blank" class="btn">Tell me more</a>
+                        <h2 class="title">test</h2>
+                        <a href="https://flickity.metafizzy.co/" target="_blank" class="btn">test btn</a>
                     </div>
                 </div>
                 <div class="carousel-cell" style="background-image:url(../src/img/slider3.png);">
                     <div class="overlay"></div>
                     <div class="inner">
                         <h3 class="subtitle">Slide 3</h3>
-                        <h2 class="title">Flickity Parallax</h2>
-                        <a href="https://flickity.metafizzy.co/" target="_blank" class="btn">Tell me more</a>
+                        <h2 class="title">test</h2>
+                        <a href="https://flickity.metafizzy.co/" target="_blank" class="btn">test btn</a>
                     </div>
                 </div>
                 <div class="carousel-cell" style="background-image:url(../src/img/slider4.png);">
                     <div class="overlay"></div>
                     <div class="inner">
                         <h3 class="subtitle">Slide 4</h3>
-                        <h2 class="title">Flickity Parallax</h2>
-                        <a href="https://flickity.metafizzy.co/" target="_blank" class="btn">Tell me more</a>
+                        <h2 class="title">test</h2>
+                        <a href="https://flickity.metafizzy.co/" target="_blank" class="btn">test btn</a>
                     </div>
                 </div>
                 <div class="carousel-cell" style="background-image:url(../src/img/slider5.png);">
                     <div class="overlay"></div>
                     <div class="inner">
                         <h3 class="subtitle">Slide 5</h3>
-                        <h2 class="title">Flickity Parallax</h2>
-                        <a href="https://flickity.metafizzy.co/" target="_blank" class="btn">Tell me more</a>
+                        <h2 class="title">test</h2>
+                        <a href="https://flickity.metafizzy.co/" target="_blank" class="btn">test btn</a>
                     </div>
                 </div>
             </div>
@@ -126,7 +128,7 @@
             </div>
         </div>
         <div class="price__wrapper">
-            <div class="price">
+            <div class="price" id="price">
                 <h2 class="price__title">ЦЕНЫ</h2>
                 <div class="price-inner-wrapper">
                     <div class="price__card">
@@ -164,7 +166,7 @@
             </div>
         </div>
         <div class="contacts__wrapper">
-            <div class="contacts">
+            <div class="contacts" id="contacts">
                 <h2 class="contacts__title">КОНТАКТЫ</h2>
                 <div class="contacts-inner-wrapper">
                     <div class="form__wrapper">
@@ -213,7 +215,12 @@
                 </div>
             </footer>
         </div>
-
+        <a class="top-link hide" href="" id="js-top" aria-label="Totopbtn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+                <path d="M12 6H0l6-6z" />
+            </svg>
+            <span class="screen-reader-text">Back to top</span>
+        </a>
     </div>
 </body>
 
